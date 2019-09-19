@@ -1,0 +1,90 @@
+body{
+	color: black;
+	margin: 0;
+}
+
+#content{
+	border:dotted #DAA520;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+}
+#sample {
+    background-color: gray;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 182px;
+    padding: 0px;
+    margin: 30px auto;
+}
+
+
+.head{
+	color:black;
+	font-size: 20px;
+	margin: 20px 0px 15px 0px;
+}
+.image{
+	margin:auto;
+	padding:auto;
+	text-align:center;
+}
+
+.logo{
+	width:280px;
+	height:74px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+.text{
+	text-align: center;
+}
+
+/*Footer*/
+#footer{
+	background-color:#01426A;
+	border:solid red;
+	text-align:center;
+	margin: 0px;
+}
+
+a:visited{
+	color:black;
+}
+/*Navbar*/
+a:hover{
+	background: #00000;	
+	}
+
+.navbar {
+  display: flex;
+  background-color: #c2c9c9;
+  top:0;
+  width:100%;
+  z-index: 1;
+  height:50px;
+  font-size: 20px;
+  color:black;
+  margin: 0;
+}
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  top:0;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+@media screen and (max-width: 750px) {
+  .row, .navbar {   
+    Display: grid; 
+grid-template-columns: 1fr;
+Justify-content: center;
+Align-items: center;
+  }
+}
+
